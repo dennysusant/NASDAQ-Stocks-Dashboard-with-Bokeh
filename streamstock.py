@@ -106,7 +106,7 @@ p1.xaxis.major_label_orientation=radians(60)
 p1.xaxis.axis_label='Date'
 p1.yaxis.axis_label='Value'
 options=nasdaqlist
-select2=Select(title='Stocks', value='AAPL',options=options,max_width=100)
+select2=Select(title='Stocks', value='TSLA',options=options,max_width=100)
 select2.on_change('value',update_intermed2)
 
 
@@ -144,7 +144,7 @@ p2.xaxis.major_label_orientation=radians(60)
 p2.xaxis.axis_label='Date'
 p2.yaxis.axis_label='Value'
 options=nasdaqlist
-select3=Select(title='Stocks', value='AAPL',options=options,max_width=100)
+select3=Select(title='Stocks', value='GOOG',options=options,max_width=100)
 select3.on_change('value',update_intermed3)
 
 
@@ -181,7 +181,7 @@ p3.xaxis.major_label_orientation=radians(60)
 p3.xaxis.axis_label='Date'
 p3.yaxis.axis_label='Value'
 options=nasdaqlist
-select4=Select(title='Stocks', value='AAPL',options=options,max_width=100)
+select4=Select(title='Stocks', value='MSFT',options=options,max_width=100)
 select4.on_change('value',update_intermed4)
 
 
